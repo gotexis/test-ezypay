@@ -1,0 +1,19 @@
+{
+  "extends": "airbnb",
+  "plugins": [
+    "prefer-arrow-functions"
+  ],
+  "rules": {
+    "semi": ["error", "never"],
+    "consistent-return": "off",
+    "prefer-arrow-functions/prefer-arrow-functions": [
+      "warn",
+      {
+        "classPropertiesAllowed": true,
+        "disallowPrototype": true,
+        "returnStyle": "implicit",
+        "singleReturnOnly": false
+      }
+    ]
+  }
+}

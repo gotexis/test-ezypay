@@ -1,0 +1,15 @@
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+  "amount": 1,
+  "type": "MONTHLY",
+  "start_day": "31/01/2020",
+  "end_day": "28/04/2020"
+}
+
+
+
+
+<> 2020-01-28T074742.201.json
+###
